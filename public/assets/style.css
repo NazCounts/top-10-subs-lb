@@ -1,0 +1,68 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: transparent;
+    font-family: roboto;
+    margin: 0;
+}
+
+.row {
+  display: inline-block;
+}
+
+.card {
+height: 80px;
+width: 330px;
+padding: 4px;
+margin: 4px;
+text-align: left;
+margin-left: 10px;
+background: black;
+transition: 0.5s;
+}
+
+.cimg {
+    height: 70px;
+    width: 70px;
+    float: left;
+    margin-top: 3px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.rankdis {
+   float: right;
+    border-radius: 8px;
+    color: white;
+    padding: 5px;
+    background: rgb(0, 223, 0);
+    font-size: 16px;
+    transition: background 2s;
+}
+
+.cnb {
+    font-size: 26px;
+    margin-top: 20px;
+    float: left;
+    color: white;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+    .subscriberCount {
+        font-size: 34px;
+        color: white;
+        margin-top: 5px;
+    }
+
+.chnam {
+    margin-top: 0px;
+    font-family: 'Roboto';
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 20px;
+    color: white;
+}
